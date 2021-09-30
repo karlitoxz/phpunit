@@ -10,18 +10,19 @@ XAMPP:
   C:\xampp\php\pear
     PHPUnit.old
     PHPUnit2.old
+
     
    en sysdm.cpl -> Opciones avanzadas -> variables de entorno ->path
    registrar la ruta donde se descargo phpunit
 
 
 ejecutar el test:
-      No es necesario: //require 'app/Calculadora.php';
+  No es necesario: //require 'app/Calculadora.php';
     $ phpunit --bootstrap ./app/Calculadora.php ./test/CalculadoraTest.php
   mostrar los errores o aciertos en color:
     phpunit --bootstrap ./app/Calculadora.php ./test/CalculadoraTest.php --color 
 
-    Es necesario el require 'app/Calculadora.php';
+  Es necesario el require 'app/Calculadora.php';
   Tambien se puede solo llamando el test:
     phpunit ./test/CalculadoraTest.php --color
     
