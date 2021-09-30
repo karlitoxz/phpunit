@@ -19,5 +19,7 @@ XAMPP:
 
 
 ejecutar el test:
-  $ phpunit --bootstrap ./Calculadora.php ./CalculadoraTest.php
+    $ phpunit --bootstrap ./Calculadora.php ./CalculadoraTest.php
+  mostrar los errores o aciertos en color:
+    phpunit --bootstrap ./Calculadora.php ./CalculadoraTest.php --color 
     
