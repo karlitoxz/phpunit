@@ -16,4 +16,8 @@ XAMPP:
     
    en sysdm.cpl -> Opciones avanzadas -> variables de entorno ->path
    registrar la ruta donde se descargo phpunit
+
+
+ejecutar el test:
+  $ phpunit --bootstrap ./Calculadora.php ./CalculadoraTest.php
     
