@@ -10,9 +10,6 @@ XAMPP:
   C:\xampp\php\pear
     PHPUnit.old
     PHPUnit2.old
-
-  test desde bash windows:
-    $ phpunit --bootstrap ./Calculadora.php ./CalculadoraTest.php
     
    en sysdm.cpl -> Opciones avanzadas -> variables de entorno ->path
    registrar la ruta donde se descargo phpunit
