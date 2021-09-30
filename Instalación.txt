@@ -11,3 +11,6 @@ XAMPP:
     PHPUnit.old
     PHPUnit2.old
     
+   en sysdm.cpl -> Opciones avanzadas -> variables de entorno ->path
+   registrar la ruta donde se descargo phpunit
+    
