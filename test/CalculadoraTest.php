@@ -1,6 +1,7 @@
 <?php 
 
 require '../../phpunit/vendor/autoload.php';
+//require 'app/Calculadora.php';
 use \PHPUnit\Framework\TestCase;
 
 final class CalculadoraTest extends TestCase

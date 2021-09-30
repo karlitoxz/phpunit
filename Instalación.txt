@@ -19,7 +19,12 @@ XAMPP:
 
 
 ejecutar el test:
-    $ phpunit --bootstrap ./Calculadora.php ./CalculadoraTest.php
+      No es necesario: //require 'app/Calculadora.php';
+    $ phpunit --bootstrap ./app/Calculadora.php ./test/CalculadoraTest.php
   mostrar los errores o aciertos en color:
-    phpunit --bootstrap ./Calculadora.php ./CalculadoraTest.php --color 
+    phpunit --bootstrap ./app/Calculadora.php ./test/CalculadoraTest.php --color 
+
+    Es necesario el require 'app/Calculadora.php';
+  Tambien se puede solo llamando el test:
+    phpunit ./test/CalculadoraTest.php --color
     
